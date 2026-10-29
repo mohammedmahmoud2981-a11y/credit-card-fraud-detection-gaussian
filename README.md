@@ -79,8 +79,8 @@ Confusion matrix (`[[TN, FP], [FN, TP]]`):
 
 Reviewing a random 100 transactions would catch less than one fraud on average (test fraud rate is about 0.43%), so the top-100 list is roughly 150x better than random.
 
-![Score distribution](outputs_fraud/score_distribution.png)
-![PR curve](outputs_fraud/pr_curve.png)
+![Score distribution](score_distribution.png)
+![PR curve](pr_curve.png)
 
 ### Interpretation
 - CV F1 (0.366) and test F1 (0.394) are close, so the threshold generalizes and is not overfitted to the CV set.
